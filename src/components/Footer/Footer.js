@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
-// import PrivacyPolicy from './PrivacyPolicy';
-
+import PrivacyPolicy from './PrivacyPolicy';
+import TermsAndConditions from './TermsAndConditions'; // Add this line
 
 const Footer = () => {
   return (
@@ -11,8 +11,9 @@ const Footer = () => {
         &copy; Climate Co {new Date().getFullYear()}
       </p>
       <div className="footer__links">
-        <Link to="/TermsAndConditions" className="footer__link">Terms & Conditions</Link>
-        <Link to="/PrivacyPolicy" className="footer__link">Privacy Policy</Link>
+        <Link to="/terms-and-conditions" className="footer__link">Terms & Conditions</Link>
+        <br />
+        <Link to="/privacy-policy" className="footer__link">Privacy Policy</Link>
       </div>
     </footer>
   );
