@@ -1,0 +1,123 @@
+/* Welcome.css
+.welcome {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  .welcome__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  
+  .welcome__description {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .welcome__cta-button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .welcome__cta-button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+   /* Mobile resposive */
+   /* Welcome.css */
+   .welcome {
+    padding: 2rem; /* Increased padding on top and bottom, 4rem on top and bottom, 2rem on left and right */
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  .welcome__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  
+  .welcome__description {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .welcome__cta-button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .flow__cta-button {
+    font-size: 1rem;
+    padding: .5rem;
+    margin: .5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back__button {
+    font-size: 1rem;
+    padding: .5rem;
+    margin: .5rem;
+    background-color: #f16b4a91;
+    color: #09080874;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .welcome__cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .welcome {
+      padding: 1rem;
+    }
+    
+    .welcome__title {
+      font-size: 1.5rem;
+    }
+    
+    .welcome__description {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .welcome__cta-button {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+    }
+  }
+  

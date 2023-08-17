@@ -1,13 +1,19 @@
 import React from 'react';
 import './Home.css';
+import Welcome from '../Welcome/Welcome';
+import ContactUs from '../ContactUs/ContactUs';
+import AboutUs from '../AboutUs/AboutUs';
+import Services from '../Services/Services';
 
 function Home() {
   return (
-    <div className="home">
-      <h1>Welcome to Climate Co</h1>
-      <p>Your Trusted Heating and Cooling Experts</p>
-      <button className="home__cta-button">Get Started</button>
-    </div>
+    <>
+    <Welcome />
+    {/* <ContactUs />
+    <AboutUs />
+    <Services /> */}
+    </>
+
   );
 }
 

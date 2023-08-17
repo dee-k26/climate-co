@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,4 +27,58 @@
 
 .footer__link:hover {
   color: #555;
+} */
+/* Footer.css */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /* White background */
+  color: #000; /* Black text color */
+  padding: 2rem;
+  text-align: center; /* Center text content */
+}
+
+.footer__copyright {
+  margin-bottom: 1rem; /* Add some space at the bottom */
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap; /* Allow links to wrap on smaller screens */
+  justify-content: center; /* Center links horizontally */
+  margin-top: 1rem; /* Add some space at the top */
+}
+
+.footer__link-item {
+  margin: 1rem; /* Adjust spacing between links */
+}
+
+.footer__link {
+  color: #000; /* Black text color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer__link:hover {
+  color: #555;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 1rem;
+  }
+
+  .footer__links {
+    margin-top: 0.5rem;
+  }
+
+  .footer__link-item {
+    margin: 0.25rem;
+  }
+}
+.terms-and-conditions { padding: 3rem;
+
 }

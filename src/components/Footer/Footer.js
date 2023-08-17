@@ -11,9 +11,12 @@ const Footer = () => {
         &copy; Climate Co {new Date().getFullYear()}
       </p>
       <div className="footer__links">
-        <Link to="/terms-and-conditions" className="footer__link">Terms & Conditions</Link>
-        <br />
-        <Link to="/privacy-policy" className="footer__link">Privacy Policy</Link>
+        <div className="footer__link-item">
+          <Link to="/terms-and-conditions" className="footer__link">Terms & Conditions</Link>
+        </div>
+        <div className="footer__link-item">
+          <Link to="/privacy-policy" className="footer__link">Privacy Policy</Link>
+        </div>
       </div>
     </footer>
   );

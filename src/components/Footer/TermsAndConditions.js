@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.css';
 
 
 function TermsAndConditions() {
   return (
-    <div>
+    <div className="terms-and-conditions">
       <h1>Terms and Conditions</h1>
       <p>
       Terms and Conditions

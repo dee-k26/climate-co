@@ -22,14 +22,12 @@ const ContactUs = () => {
       </form>
       <div className="contact-us__info">
         <p>
-          123 Main Street
-          <br />
-          Anytown, USA 12345
+          Lara, VIC 3212
         </p>
         <p>
-          Phone: (123) 456-7890
+          Phone: <a className="contactus__link-item" href="tel:+611300513799">1300 513 799</a>
           <br />
-          Email: info@yourbusiness.com
+          Email: info@climateco.au
         </p>
       </div>
     </section>
