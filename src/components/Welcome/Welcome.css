@@ -64,7 +64,8 @@
   .welcome__cta-button {
     font-size: 1rem;
     padding: 0.5rem 1rem;
-    background-color: #007bff;
+    background-color: #555;
+    text-decoration: none;
     color: #fff;
     border: none;
     border-radius: 0.25rem;
@@ -72,11 +73,17 @@
     transition: background-color 0.3s ease;
   }
 
+  .instroduction { 
+    margin-top: 20px
+  }
+
   .flow__cta-button {
     font-size: 1rem;
     padding: .5rem;
     margin: .5rem;
-    background-color: #007bff;
+    background-color: #555;
+    cursor: pointer;
+    text-decoration: none;
     color: #fff;
     border: none;
     border-radius: 0.25rem;
@@ -99,7 +106,16 @@
   .welcome__cta-button:hover {
     background-color: #0056b3;
   }
+
+  .welcome__call-us {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
   
+  .welcome__call-us-item:hover {
+    color: #555;
+  }
   /* Responsive Design */
   @media screen and (max-width: 768px) {
     .welcome {

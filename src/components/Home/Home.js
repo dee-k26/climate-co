@@ -9,9 +9,9 @@ function Home() {
   return (
     <>
     <Welcome />
-    {/* <ContactUs />
+    <ContactUs />
     <AboutUs />
-    <Services /> */}
+    <Services />
     </>
 
   );
