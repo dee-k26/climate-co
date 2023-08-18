@@ -32,7 +32,6 @@ function LoadingPage() {
   return (
     <div className="App">
     <Header />
-    <Home />
     <Routes>
       <Route path="/climate-co" element={<Home />} /> 
       <Route path="/about" element={<AboutUs />} />
