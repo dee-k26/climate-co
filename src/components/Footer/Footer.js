@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       
-      {/* <div className="footer__links"> */}
+      <div className="footer__links">
       <div >
         <p className="footer__copyright">
         &copy; Climate Co {new Date().getFullYear()}
@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="footer__link-item">
         <ContactUsInfo />
         </div>
-      {/* </div> */}
+      </div>
     </footer>
   );
 };

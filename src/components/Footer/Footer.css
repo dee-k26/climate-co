@@ -69,16 +69,11 @@
   }
 
   .footer__links {
-    display: flex;
-    justify-content: center; /* Center links horizontally */
-    align-items: center; /* Vertically align links */
-    margin-top: 1rem; /* Add some space at the top */
+    flex-direction: column; /* Stack links vertically on smaller screens */
+    margin-top: 1rem;
   }
 
   .footer__link-item {
     margin: 0.25rem;
   }
-}
-.terms-and-conditions { padding: 3rem;
-
 }

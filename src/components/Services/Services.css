@@ -16,6 +16,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    list-style: none; /* Remove bullet points */
+    padding: 0; 
   }
   
   .services__item {
@@ -40,6 +42,32 @@
     font-size: 1.25rem;
     color: #333;
     line-height: 1.5;
+  }
+
+  @media screen and (max-width: 768px) {
+    .services {
+      padding: 1rem;
+    }
+  
+    .services__title {
+      font-size: 1.5rem;
+    }
+  
+    .services__item {
+      width: calc(100% - 1rem); /* Adjust width for full width on smaller screens */
+    }
+  
+    .services__item-icon {
+      font-size: 2rem;
+    }
+  
+    .services__item-title {
+      font-size: 1rem;
+    }
+  
+    .services__item-description {
+      font-size: 1rem;
+    }
   }
    
     
