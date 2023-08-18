@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/climate-co/static/css/main.a45eb86d.css",
+    "main.js": "/climate-co/static/js/main.fa6e99e1.js",
+    "static/media/family.jpg": "/climate-co/static/media/family.30b4e6f39d2429d96ca2.jpg",
+    "static/media/Logo.png": "/climate-co/static/media/Logo.6af2abbd4645057c199f.png",
+    "index.html": "/climate-co/index.html",
+    "main.a45eb86d.css.map": "/climate-co/static/css/main.a45eb86d.css.map",
+    "main.fa6e99e1.js.map": "/climate-co/static/js/main.fa6e99e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a45eb86d.css",
+    "static/js/main.fa6e99e1.js"
+  ]
+}
