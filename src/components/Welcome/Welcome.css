@@ -73,9 +73,10 @@
     transition: background-color 0.3s ease;
   }
 
-  .instroduction { 
-    margin-top: 20px
-  }
+  .welcome__content { 
+    width: 600px;
+    margin: 30px auto 20px auto;
+ }
 
   .flow__cta-button {
     font-size: 1rem;

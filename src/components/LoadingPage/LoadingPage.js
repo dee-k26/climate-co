@@ -10,7 +10,6 @@ import Home from '../Home/Home';
 import PrivacyPolicy from '../Footer/PrivacyPolicy';
 import TermsAndConditions from '../Footer/TermsAndConditions';
 import Footer from '../Footer/Footer';
-import StepOne from '../Welcome/StepOne';
 
 
 function LoadingPage() {
@@ -40,7 +39,6 @@ function LoadingPage() {
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
-      <Route path="/step-one" element={<StepOne />} />
     </Routes>
     <Footer />
     </div>
