@@ -2,15 +2,25 @@ import React from 'react';
 import './Realestate.css';
 import Compliance from './Compliance';
 import TroubleShooting from './TroubleShooting';
-import { Link } from 'react-router-dom';
+import RealestateEnquireButton from './RealestateEnquireButton';
+import TroubleShootingCTA from './TroubleShootingCTA';
+import RealestateService from './RealestateService';
+// import { Link } from 'react-router-dom';
+
 
 function RealestateLP() {
   return (
-    <div className="realestate">
-      <Compliance />
-      <TroubleShooting />
-      <a className="realestate__cta-button" href="tel:+611300513799">Call Us</a>
+    <div className="welcome">
+      <div className ="realestatelp__div"> 
+            <Compliance />
+            <RealestateEnquireButton />
       </div>
+      <div className ="realestatelp__div"> 
+            <TroubleShooting />
+            <TroubleShootingCTA />
+      </div>
+      <RealestateService />
+    </div>
   );
 }
 

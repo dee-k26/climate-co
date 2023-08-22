@@ -10,6 +10,10 @@ import Home from '../Home/Home';
 import PrivacyPolicy from '../Footer/PrivacyPolicy';
 import TermsAndConditions from '../Footer/TermsAndConditions';
 import Footer from '../Footer/Footer';
+import RealestateLP from '../Realestates/RealestateLP';
+import RealestateCTAForm from '../Realestates/RealestateCTAForms';
+import TroubleshootFlow from '../Realestates/TroubleShootingFlow/TroubleShootingFlow';
+import HWS from '../Realestates/TroubleShootingFlow/HWS/HWS';
 
 
 function LoadingPage() {
@@ -33,12 +37,16 @@ function LoadingPage() {
     <div className="App">
     <Header />
     <Routes>
-      <Route path="/climate-co" element={<Home />} /> 
+      <Route path="/" element={<Home />} /> 
       <Route path="/about" element={<AboutUs />} />
       <Route path="/services" element={<Services />} />
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+      <Route path="/realestates" element={<RealestateLP />} />
+      <Route path="/enquire" element={<RealestateCTAForm />} />
+      <Route path="/troubleshoot" element={<TroubleshootFlow />} />
+      <Route path="/HWS" element={<HWS />} />
     </Routes>
     <Footer />
     </div>

@@ -4,6 +4,7 @@ import Welcome from '../Welcome/Welcome';
 import ContactUs from '../ContactUs/ContactUs';
 import AboutUs from '../AboutUs/AboutUs';
 import Services from '../Services/Services';
+import Realestates from '../Realestates/RealestateLP';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
     <ContactUs />
     <AboutUs />
     <Services />
+    <Realestates />
     </>
 
   );

@@ -1,0 +1,75 @@
+
+  
+
+  .flow {
+    padding: 2rem; /* Increased padding on top and bottom, 4rem on top and bottom, 2rem on left and right */
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  .flow__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  
+  .flow__description {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .flow__button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #555;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .flow__content { 
+    width: 600px;
+    margin: 30px auto 20px auto;
+ }
+
+  
+
+  
+  .flow__button:hover {
+    background-color: #0056b3;
+  }
+
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .flow {
+      padding: 1.5rem;
+    }
+  
+    .flow__title {
+      font-size: 1.5rem;
+    }
+  
+    .flow__description {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .flow-button {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+    }
+    
+    .flow__content {
+      width: 90%; /* Adjust width for smaller screens */
+      margin: 20px auto; /* Adjust margin for smaller screens */
+    }
+  }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Welcome.css';
 import Introduction from './Introduction';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Welcome() {
   return (
