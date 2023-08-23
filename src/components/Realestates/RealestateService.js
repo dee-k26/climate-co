@@ -5,32 +5,38 @@ const services = [
   {
     id: 1,
     title: 'Diagnosis',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Streamline property management with our expert HVAC diagnosis and repair services. Our proficient technicians promptly identify appliance issues, offering effective solutions that maintain rental properties in optimal condition, ensuring tenant satisfaction and regulatory compliance.',
     price: '$165'
   },
   {
     id: 2,
     title: 'Servicing',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Enhance tenant comfort and property value through our thorough HVAC appliance servicing. Our adept team ensures heating and cooling systems operate flawlessly, extending the longevity of appliances and reducing tenant turnover.',
     price: '$181.50'
   },
   {
     id: 3,
     title: 'Gas Safety Check',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Prioritize tenant safety with our comprehensive gas safety checks, aligned with tenancy regulations. We meticulously assess gas systems, providing rental providers peace of mind while adhering to legal requirements.',
     price: '$302'
   },
   {
     id: 4,
     title: 'Electrical Safety Check',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Maintain secure rental properties with our meticulous electrical safety checks. Our certified technicians examine electrical systems, promoting tenant well-being and fulfilling obligations outlined in the tenancy act.',
     price: '$275'
   },
   {
     id: 5,
     title: 'Smoke Detector Check',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Ensure tenant security with our detailed smoke detector checks. We confirm the functionality of smoke detectors, demonstrating your commitment to tenant safety and fulfilling regulatory mandates.',
     price: '$99'
+  },
+  {
+    id: 6,
+    title: 'Installation',
+    description: 'Upgrade property efficiency and tenant satisfaction through our HVAC appliance installation services. From modern systems to energy-efficient units, our skilled team seamlessly integrates appliances, improving property desirability and tenant comfort.',
+    price: 'POA'
   }
 ];
 

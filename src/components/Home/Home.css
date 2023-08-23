@@ -1,6 +1,6 @@
 /* Home.css */
 .home {
-    padding: 2rem;
+    padding: 4rem;
     text-align: center;
     background-color: #f2f2f2;
   }
@@ -20,11 +20,12 @@
     color: #333;
     margin-bottom: 2rem;
   }
-  
+
   .home__cta-button {
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #007bff;
+    font-size: 3rem;
+    padding: 1rem;
+    background-color: #555;
+    text-decoration: none;
     color: #fff;
     border: none;
     border-radius: 0.25rem;
@@ -32,7 +33,9 @@
     transition: background-color 0.3s ease;
   }
   
+  
   .home__cta-button:hover {
     background-color: #0056b3;
   }
+  
   

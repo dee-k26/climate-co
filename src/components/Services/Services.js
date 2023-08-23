@@ -4,18 +4,21 @@ import './Services.css';
 const services = [
   {
     id: 1,
-    title: 'Heating Services',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    title: 'Diagnosis',
+    description: 'Streamline property management with our expert HVAC diagnosis and repair services. Our proficient technicians promptly identify appliance issues, offering effective solutions that maintain rental properties in optimal condition, ensuring tenant satisfaction and regulatory compliance.',
+    price: '$165'
   },
   {
     id: 2,
-    title: 'Cooling Services',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    title: 'Servicing',
+    description: 'Enhance tenant comfort and property value through our thorough HVAC appliance servicing. Our adept team ensures heating and cooling systems operate flawlessly, extending the longevity of appliances and reducing tenant turnover.',
+    price: '$181.50'
   },
   {
-    id: 3,
-    title: 'Maintenance Services',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    id: 6,
+    title: 'Installation',
+    description: 'Upgrade property efficiency and tenant satisfaction through our HVAC appliance installation services. From modern systems to energy-efficient units, our skilled team seamlessly integrates appliances, improving property desirability and tenant comfort.',
+    price: 'POA'
   }
 ];
 
@@ -29,6 +32,9 @@ const Services = () => {
             <h3 className="services__item-title">{service.title}</h3>
             <p className="services__item-description">
               {service.description}
+            </p>
+            <p className="services__item-description">
+              {service.price}
             </p>
           </li>
         ))}

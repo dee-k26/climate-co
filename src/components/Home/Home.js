@@ -4,7 +4,7 @@ import Welcome from '../Welcome/Welcome';
 import ContactUs from '../ContactUs/ContactUs';
 import AboutUs from '../AboutUs/AboutUs';
 import Services from '../Services/Services';
-import Realestates from '../Realestates/RealestateLP';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -13,7 +13,9 @@ function Home() {
     <ContactUs />
     <AboutUs />
     <Services />
-    <Realestates />
+    <div className ='home'>
+    <Link to="/realestates" className="home__cta-button">Realestates</Link>
+    </div>
     </>
 
   );
