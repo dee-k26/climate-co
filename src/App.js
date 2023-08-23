@@ -35,16 +35,16 @@
 
 // export default App;
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LoadingPage from './components/LoadingPage/LoadingPage';
-import Header from './components/Header/Header';
-import Home from './components/Home/Home';
-import AboutUs from './components/AboutUs/AboutUs';
-import Services from './components/Services/Services';
-import ContactUs from './components/ContactUs/ContactUs';
-import Footer from './components/Footer/Footer';
-import PrivacyPolicy from './components/Footer/PrivacyPolicy';
-import TermsAndConditions from './components/Footer/TermsAndConditions';
+// import Header from './components/Header/Header';
+// import Home from './components/Home/Home';
+// import AboutUs from './components/AboutUs/AboutUs';
+// import Services from './components/Services/Services';
+// import ContactUs from './components/ContactUs/ContactUs';
+// import Footer from './components/Footer/Footer';
+// import PrivacyPolicy from './components/Footer/PrivacyPolicy';
+// import TermsAndConditions from './components/Footer/TermsAndConditions';
 
 function App() {
   return (

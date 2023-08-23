@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
-import PrivacyPolicy from './PrivacyPolicy';
-import TermsAndConditions from './TermsAndConditions'; // Add this line
+// import PrivacyPolicy from './PrivacyPolicy';
+// import TermsAndConditions from './TermsAndConditions'; // Add this line
 import ContactUsInfo from '../ContactUs/ContactUSInfo';
 
 const Footer = () => {
