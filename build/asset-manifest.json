@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/climate-co/static/css/main.54ceea65.css",
-    "main.js": "/climate-co/static/js/main.603ad71d.js",
-    "static/media/family.jpg": "/climate-co/static/media/family.30b4e6f39d2429d96ca2.jpg",
-    "static/media/Logo.png": "/climate-co/static/media/Logo.6af2abbd4645057c199f.png",
-    "index.html": "/climate-co/index.html",
-    "main.54ceea65.css.map": "/climate-co/static/css/main.54ceea65.css.map",
-    "main.603ad71d.js.map": "/climate-co/static/js/main.603ad71d.js.map"
+    "main.css": "/static/css/main.54ceea65.css",
+    "main.js": "/static/js/main.124586da.js",
+    "static/media/family.jpg": "/static/media/family.30b4e6f39d2429d96ca2.jpg",
+    "static/media/Logo.png": "/static/media/Logo.6af2abbd4645057c199f.png",
+    "index.html": "/index.html",
+    "main.54ceea65.css.map": "/static/css/main.54ceea65.css.map",
+    "main.124586da.js.map": "/static/js/main.124586da.js.map"
   },
   "entrypoints": [
     "static/css/main.54ceea65.css",
-    "static/js/main.603ad71d.js"
+    "static/js/main.124586da.js"
   ]
 }
